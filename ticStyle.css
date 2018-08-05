@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin : auto 20%;
+	margin-top : 15%;
+	width: 300px;
+}
+.container .box{
+	float  : left;
+	width : 100px;
+	height : 100px;
+}
+#main{
+	margin-top : 8%;
+}
+.container span{	
+	background-color: blue;		
+	color : white;
+	font-family: georgia;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+/*    BOX BORDER   */
+.vertical{
+	border-right: 2px solid blue;
+	border-left: 2px solid blue;
+		}
+.center{
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	}	
+		/*   WINNER COLOUR  */
+.win{
+	background-color : green;
+}
+button{
+	background-color: lightblue;
+	border : none;
+	padding: 3%;
+	color : green;
+	font-weight: bold;
+	border-radius: 50px: 
+}
